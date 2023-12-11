@@ -1,0 +1,52 @@
+// @ts-ignore
+import Reveal from 'reveal.js/dist/reveal';
+import { RevealOptions } from '../types/RevealOptions';
+
+export const options: RevealOptions = {
+    controls: true,
+    controlsTutorial: false,
+    controlsLayout: 'bottom-right',
+    controlsBackArrows: 'faded',
+    progress: true,
+    slideNumber: false,
+    hash: false,
+    history: true,
+    keyboard: {
+        37: 'prev',
+        38: 'prev',
+        39: 'next',
+        40: 'next'
+    },
+    overview: true,
+    center: true,
+    touch: true,
+    loop: false,
+    rtl: false,
+    navigationMode: 'default',
+    shuffle: false,
+    fragments: true,
+    fragmentInURL: false,
+    embedded: false,
+    help: true,
+    showNotes: false,
+    autoPlayMedia: null,
+    preloadIframes: null,
+    autoSlide: 0,
+    autoSlideStoppable: true,
+    autoSlideMethod: Reveal.navigateNext,
+    defaultTiming: 120,
+    mouseWheel: false,
+    hideInactiveCursor: true,
+    hideCursorTime: 5000,
+    hideAddressBar: true,
+    previewLinks: false,
+    transition: 'slide',
+    transitionSpeed: 'default',
+    backgroundTransition: 'fade',
+    viewDistance: 2,
+    parallaxBackgroundImage: '',
+    parallaxBackgroundSize: '',
+    parallaxBackgroundHorizontal: null,
+    parallaxBackgroundVertical: null,
+    display: 'block'
+};
