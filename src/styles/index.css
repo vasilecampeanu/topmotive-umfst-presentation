@@ -38,6 +38,11 @@ code
     margin-bottom: 50px;
 }
 
+.tm-logo-white
+{
+    fill: white;
+}
+
 .slide.branded
 {
     height: 100%;
@@ -45,10 +50,16 @@ code
     grid-template-rows: 1fr auto;
 }
 
+.slide.branded .content
+{
+    display: grid;
+    place-content: center;
+}
+
 .slide.branded .brand
 {
     display: grid;
-    padding-right: 100px;
+    padding-right: 70px;
     background-color: #004991;
     height: 50px;
     clip-path: polygon(0 30px, 100% 0, 100% 100%, 0 100%);
@@ -58,6 +69,27 @@ code
 .slide.branded .brand svg
 {
     justify-self: end;
-    width: 150px;
-    fill: white;
+}
+
+.framed-info-slide
+{
+    height: 100%;
+    display: grid !important;
+    background-color: #004991;
+    color: white;
+}
+
+.framed-info-slide .framer
+{
+    place-self: center;
+    display: grid;
+    place-content: center;
+    width: 80%;
+    height: 80%;
+    border: 3px solid white;
+}
+
+.framed-info-slide .framer h1, h2, h3, h4, h5
+{
+    color: white !important;
 }
