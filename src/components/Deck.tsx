@@ -8,10 +8,6 @@ import RevealMarkdown from 'reveal.js/plugin/markdown/markdown';
 import { ReactNode, useEffect } from "react";
 import { options } from '../common/Options';
 
-import 'reveal.js/dist/reset.css';
-import 'reveal.js/dist/reveal.css';
-import 'reveal.js/dist/theme/white.css';
-
 interface DeckProps {
     children: ReactNode;
 }
@@ -20,6 +16,7 @@ export const Deck: React.FC<DeckProps> = ({ children }) => {
     useEffect(() => {
         Reveal.initialize({
             ...options,
+            disableLayout: true,
             plugins: [RevealNotes, RevealMarkdown],
         });
     }, []);

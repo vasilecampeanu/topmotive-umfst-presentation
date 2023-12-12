@@ -1,13 +1,10 @@
-// @ts-ignore
-import Reveal from 'reveal.js/dist/reveal';
-
 export interface RevealOptions {
     controls: boolean;
     controlsTutorial: boolean;
     controlsLayout: 'edges' | 'bottom-right';
     controlsBackArrows: 'faded' | 'hidden' | 'visible';
     progress: boolean;
-    slideNumber: boolean;
+    slideNumber: any;
     hash: boolean;
     history: boolean;
     keyboard: { [key: number]: string };

@@ -8,7 +8,7 @@ export const options: RevealOptions = {
     controlsLayout: 'bottom-right',
     controlsBackArrows: 'faded',
     progress: true,
-    slideNumber: false,
+    slideNumber: 'c/t',
     hash: false,
     history: true,
     keyboard: {
