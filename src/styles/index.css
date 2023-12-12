@@ -89,7 +89,32 @@ code
     border: 3px solid white;
 }
 
-.framed-info-slide .framer h1, h2, h3, h4, h5
+.framed-info-slide .framer h1,
+.framed-info-slide .framer h2,
+.framed-info-slide .framer h3,
+.framed-info-slide .framer h4,
+.framed-info-slide .framer h5
 {
     color: white !important;
+}
+
+.banner-slide
+{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.banner-slide .banner img
+{
+    all: unset;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-slide .content
+{
+    display: grid;
+    place-content: center;
 }
