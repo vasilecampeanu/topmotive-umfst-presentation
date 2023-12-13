@@ -40,7 +40,7 @@ code
 
 .tm-logo-white
 {
-    fill: white;
+    fill: white !important;
 }
 
 .slide.branded
@@ -118,3 +118,6 @@ code
     display: grid;
     place-content: center;
 }
+
+.black-fill { fill:#1d1d1b; fill-rule:nonzero; }
+.blue-fill { fill:#004a92; fill-rule:nonzero; }

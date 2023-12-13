@@ -17,6 +17,8 @@ export const App = () => {
                         <h3>
                             How to Build Cross-Platform Applications with Ease
                         </h3>
+                        <div>Presented by</div>
+                        <div><b>Marina Timus</b> & <b>Vasile Campeanu</b></div>
                     </div>
                 </BannerSlide>
                 <Slide branded={false}>
@@ -27,15 +29,34 @@ export const App = () => {
                         </div>
                     </FramedInfoSlide>
                     <Slide>
+                        <center>
+                            <img src="dvserologo.png" width="120px" alt="" />
+                        </center>
+                        <img src="dvsero.png" width="900px" alt="" />
+                    </Slide>
+                    <Slide>
                         <h2>What we do?</h2>
                     </Slide>
+                    <Slide>
+                        <img src="fastcalc.jpeg" alt="" />
+                    </Slide>
                 </Slide>
-                <FramedInfoSlide>
-                    <h2>Overview</h2>
-                    <div>
-                        <TMLogo whiteLogo={true} width={'250px'} />
-                    </div>
-                </FramedInfoSlide>
+                <Slide branded={false}>
+                    <FramedInfoSlide>
+                        <h2>Presentation Overview</h2>
+                        <div>
+                            <TMLogo whiteLogo={true} width={'250px'} />
+                        </div>
+                    </FramedInfoSlide>
+                    <Slide>
+                        <ul>
+                            <li>JavaScript/TypeScript</li>
+                            <li>Node.js</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                        </ul>
+                    </Slide>
+                </Slide>
                 <Slide branded={false}>
                     <FramedInfoSlide>
                         <h2>JavaScript</h2>
@@ -44,16 +65,26 @@ export const App = () => {
                         </div>
                     </FramedInfoSlide>
                     <Slide>
-                        <img src="jspopular.png" alt="" />
-                    </Slide>                  
+                        <img src="webstack.jpg" width="600px" alt="" />
+                    </Slide>
                     <Slide>
-                        <h2>Key Features</h2>
-                        <ul>
-                            <li>Dynamic Typing</li>
-                            <li>First-Class Functions</li>
-                            <li>Asynchronous Processing</li>
-                        </ul>
-                    </Slide>                  
+                        <img src="jspopular.png" alt="" />
+                    </Slide>
+                    <Slide>
+                        <h2>Characteristics</h2>
+                    </Slide>
+                    <Slide>
+                        <h2>Dynamic Typing</h2>
+                        <img src="dtyping.png" width="1000px" alt="" />
+                    </Slide>
+                    <Slide>
+                        <h2>Functional Programming</h2>
+                        <img src="fprogramming.png" width="1000px" alt="" />
+                    </Slide>
+                    <Slide>
+                        <h2>Asynchronous Processing</h2>
+                        <img src="aprogramming.png" width="1000px" alt="" />
+                    </Slide>
                     <Slide>
                         <img src="betterthanjs.png" alt="" />
                     </Slide>
@@ -61,17 +92,22 @@ export const App = () => {
                         <h2>Typescript</h2>
                     </Slide>
                     <Slide>
-                        <img src="you_being_awesome.png" height="850px" alt="" />
+                        <img src="javascript.png" width="650px" alt="" />
+                        <img src="typescript.png" width="650px" alt="" />
                     </Slide>
                     <Slide>
-                        <h2>Key Features</h2>
+                        <h2>Key Differences</h2>
                         <ul>
-                            <li>Enhanced Code Quality and Readability</li>
-                            <li>Early Detection of Errors and Bugs</li>
-                            <li>Improved Development Experience</li>
-                            <li>Easier Refactoring and Maintainability</li>
+                            <li>Type Annotations</li>
+                            <li>Compile-Time Type Checking</li>
+                            <li>JavaScript Compatibility</li>
+                            <li>Tooling and Editor Support</li>
                         </ul>
-                    </Slide>                  
+                    </Slide>
+                    <Slide>
+                        <h2>How does it work?</h2>
+                        <img src="you_being_awesome.png" height="750px" alt="" />
+                    </Slide>
                 </Slide>
                 <Slide branded={false}>
                     <FramedInfoSlide>
@@ -81,14 +117,11 @@ export const App = () => {
                         </div>
                     </FramedInfoSlide>
                     <Slide>
-                        <h2>NPM</h2>
+                        <img src="./npm.png" width="400px" alt="" />
                     </Slide>
                     <Slide>
                         <h2>node_modules</h2>
                         <img src="./node_modules.png" alt="" />
-                    </Slide>
-                    <Slide>
-                        <h2>Further Research</h2>
                     </Slide>
                 </Slide>
                 <Slide branded={false}>
@@ -103,19 +136,24 @@ export const App = () => {
                         <h2>History</h2>
                     </Slide>
                     <Slide>
-                        <h2>Functional Programming</h2>
+                        <h2>Framework vs Library</h2>
+                    </Slide>
+                    <Slide>
+                        <h2>Components</h2>
+                        <img src="./button_component.png" width="1000px" alt="" />
                     </Slide>
                     <Slide>
                         <h2>Composition</h2>
+                        <img src="./composition.png" width="900px" alt="" />
+                    </Slide>
+                    <Slide>
+                        <h2>Reactive Programming</h2>
                     </Slide>
                     <Slide>
                         <h2>Virtual DOM (Document Object Model):</h2>
                         <center>
                             <img src="vdom.png" alt="" />
                         </center>
-                    </Slide>
-                    <Slide>
-                        <h2>Further Research</h2>
                     </Slide>
                     <Slide>
                         <h2>Why React?</h2>
